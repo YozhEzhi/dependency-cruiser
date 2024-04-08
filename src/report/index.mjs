@@ -19,7 +19,7 @@ const TYPE2MODULE = new Map([
   ["json", "./json.mjs"],
   ["markdown", "./markdown.mjs"],
   ["mermaid", "./mermaid.mjs"],
-  ["metrics", "./metrics.mjs"],
+  ["metrics", "./metrics/metrics.mjs"],
   ["null", "./null.mjs"],
   ["teamcity", "./teamcity.mjs"],
   ["text", "./text.mjs"],

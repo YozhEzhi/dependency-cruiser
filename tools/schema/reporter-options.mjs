@@ -72,6 +72,11 @@ export default {
           description:
             "When true hides folder metrics from the report. Defaults to false",
         },
+        outputType: {
+          type: "string",
+          enum: ["text", "csv", "json"],
+          description: "The type of output to generate. Defaults to 'text'.",
+        },
       },
     },
     MarkdownReporterOptionsType: {
